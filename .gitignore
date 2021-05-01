@@ -1,0 +1,10 @@
+#Directories
+*/*/obj/
+*/*/bin/
+*/*/.vscode/
+
+#Filetypes
+*.csproj
+
+#Future
+Uebung01/
