@@ -27,4 +27,4 @@
 | SDKs anzeigen                 | `dotnet --list-sdks`                                     |
 | Neues Konsolenprojekt anlegen | `dotnet new console` bzw. `dotnet new console -n [NAME]` |
 | Wiederherstellung durchführen | `dotnet restore`                                         |
-| Programm ausführen            | `dotnet run [PROGRAMM]`                                  |
+| Projekt erstellen             | `dotnet build [PROJEKT].csproj `                         |
