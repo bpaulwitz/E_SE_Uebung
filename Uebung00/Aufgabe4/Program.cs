@@ -24,6 +24,7 @@ namespace Aufgabe4
                 //double f = a * b / (c - y) - a / (double)b;
                 Console.WriteLine($"f = a * b / (c - y) - a / b = {f}");
 
+                //In der Math-Assembly (in der System-Assembly enthalten) findet man nützliche mathematische Funktionen wie hier die Wurzel (Math.Sqrt) - Square-Root
                 //Wenn Math.Sqrt einen negativen Input bekommt (wie hier), gibt es double.NaN zurück
                 f = (-b * Math.Sqrt(b * b - 4 * a * c) / 2 * a);
                 Console.WriteLine($"f = (-b * sqrt(b * b - 4 * a * c) / 2 * a) = {f}");
