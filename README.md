@@ -26,5 +26,5 @@
 | Hilfe zu einem Befehl         | `dotnet [BEFEHL] --help`                                 |
 | SDKs anzeigen                 | `dotnet --list-sdks`                                     |
 | Neues Konsolenprojekt anlegen | `dotnet new console` bzw. `dotnet new console -n [NAME]` |
-| Wiederherstellung durchführen | `dotnet restore`                                         |
+| Neu linken/ erstellen         | `dotnet restore`                                         |
 | Projekt erstellen             | `dotnet build [PROJEKT].csproj `                         |
