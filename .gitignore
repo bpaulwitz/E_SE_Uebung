@@ -4,7 +4,7 @@
 */*/.vscode/
 
 #Filetypes
-*.csproj
+#*.csproj
 
 #Future
 Uebung01/
