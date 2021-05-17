@@ -1,6 +1,17 @@
 # Übungslösungen Einführung in die Softwareentwicklung
 ## Sommersemester 21
 
+### Änderungen für die `launch.json` in VS Code:
+um mit F5 zu debuggen und für eine funktionierende Eingabe in der Console ersetzt
+```
+            "console": "internalConsole",
+```
+durch
+```
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+```
+
 ### Links:
 #### Zur Veranstaltung
 - Vorlesung: https://github.com/TUBAF-IfI-LiaScript/VL_Softwareentwicklung
@@ -19,7 +30,7 @@
 ##### .NET
 - .NET (Framework oder <u>Core</u>): https://dotnet.microsoft.com/download
 
-##### Wichtige `dotnet` Befehle
+### Wichtige `dotnet` Befehle
 | Funktion                      | Befehl                                                   |
 |:------------------------------|:---------------------------------------------------------|
 | Hilfe                         | `dotnet --help` oder `man dotnet` (nur Linux)            |
