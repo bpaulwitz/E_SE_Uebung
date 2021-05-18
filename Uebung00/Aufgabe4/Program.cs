@@ -39,52 +39,24 @@ namespace Aufgabe4
             {
                 double x, y, x1, x2, y1, y2;
 
-                //In den folgendem Abschnitt habe ich immer noch mögliche Konvertierfehler mitaufgefangen. Man sieht, dass es länglich wird.
-                Console.WriteLine("Wert x eingeben:");
-                bool isDouble = double.TryParse(Console.ReadLine(), out x);
-                if(!isDouble)
+                try
                 {
-                    Console.WriteLine("ERROR: Kein double");
-                    return;
+                    Console.WriteLine("Wert x eingeben:");
+                    x = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Wert y eingeben:");
+                    y = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Wert x1 eingeben:");
+                    x1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Wert y1 eingeben:");
+                    y1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Wert x2 eingeben:");
+                    x2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Wert y2 eingeben:");
+                    y2 = double.Parse(Console.ReadLine());
                 }
-
-                Console.WriteLine("Wert y eingeben:");
-                isDouble = double.TryParse(Console.ReadLine(), out y);
-                if(!isDouble)
+                catch(System.Exception e)
                 {
-                    Console.WriteLine("ERROR: Kein double");
-                    return;
-                }
-
-                Console.WriteLine("Wert x1 eingeben:");
-                isDouble = double.TryParse(Console.ReadLine(), out x1);
-                if(!isDouble)
-                {
-                    Console.WriteLine("ERROR: Kein double");
-                    return;
-                }
-
-                Console.WriteLine("Wert y1 eingeben:");
-                isDouble = double.TryParse(Console.ReadLine(), out y1);
-                if(!isDouble)
-                {
-                    Console.WriteLine("ERROR: Kein double");
-                    return;
-                }
-
-                Console.WriteLine("Wert x2 eingeben:");
-                isDouble = double.TryParse(Console.ReadLine(), out x2);
-                if(!isDouble)
-                {
-                    Console.WriteLine("ERROR: Kein double");
-                    return;
-                }
-
-                Console.WriteLine("Wert y2 eingeben:");
-                isDouble = double.TryParse(Console.ReadLine(), out y2);
-                if(!isDouble)
-                {
-                    Console.WriteLine("ERROR: Kein double");
+                    Console.WriteLine("ERROR: ungültige Eingabe\n" + e.ToString());
                     return;
                 }
 

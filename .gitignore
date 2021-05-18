@@ -2,6 +2,7 @@
 */*/obj/
 */*/bin/
 */*/.vscode/
+*/.vscode/
 
 #Filetypes
 #*.csproj
