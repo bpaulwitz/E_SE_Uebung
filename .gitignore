@@ -5,8 +5,14 @@
 */.vscode/
 
 #Filetypes
+#Project files
 #*.csproj
+#.cs templates für die Übung
+*.cst
 
 #Future
-Uebung01/Aufgabe7
-Uebung02
+Uebung02/Aufgabe3
+Uebung02/Aufgabe4
+
+#Übungsordner
+Uebung

@@ -14,7 +14,7 @@ namespace Aufgabe6
             kitts = new double[anzahlJahre];
             niue = new double[anzahlJahre];
 
-            //Initialisieren mit Werten
+            //Initialisieren mit zufälligen Werten
             for(int i = 0; i < anzahlJahre; i++)
             {
                 kitts[i] = rand.NextDouble() * 10.0;
@@ -40,12 +40,13 @@ namespace Aufgabe6
                     Console.WriteLine($"Im Jahr {basisJahr + i} haben beide gleich hohen Ausstoß.", CultureInfo.InvariantCulture);
             }
 
+            //Ausgabe des gesamten Ausstoßes (wird in der Ausgabe jeweils noch durch die Anzahl der Jahre geteilt, um den Durschnitt auszugeben)
             if(ausKitts > ausNiue)
-                    Console.WriteLine($"Insgesamt hat St. Kitts und Nevis mit {(ausKitts / anzahlJahre):0.00} einen höheren durschnittlichen Ausstoß.", CultureInfo.InvariantCulture);
-                else if(ausKitts < ausNiue)
-                    Console.WriteLine($"Insgesamt hat Niue mit {(ausNiue / anzahlJahre):0.00} einen höheren durschnittlichen Ausstoß.", CultureInfo.InvariantCulture);
-                else
-                    Console.WriteLine($"Insgesamt haben beide mit {(ausNiue / anzahlJahre):0.00} einen gleich hohen durschnittlichen Ausstoß.", CultureInfo.InvariantCulture);
+                Console.WriteLine($"Insgesamt hat St. Kitts und Nevis mit {(ausKitts / anzahlJahre):0.00} einen höheren durschnittlichen Ausstoß.", CultureInfo.InvariantCulture);
+            else if(ausKitts < ausNiue)
+                Console.WriteLine($"Insgesamt hat Niue mit {(ausNiue / anzahlJahre):0.00} einen höheren durschnittlichen Ausstoß.", CultureInfo.InvariantCulture);
+            else
+                Console.WriteLine($"Insgesamt haben beide mit {(ausNiue / anzahlJahre):0.00} einen gleich hohen durschnittlichen Ausstoß.", CultureInfo.InvariantCulture);
         }
     }
 }
