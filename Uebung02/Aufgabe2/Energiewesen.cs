@@ -22,7 +22,7 @@ namespace Aufgabe2
         public float leistung {get; set;}
         
         //-> ausführliche Schreibweise mit get und set (hier wird das Property als Wrapper für das Feld 'leistung' benutzt)
-        public float leistungProperty 
+        public float leistungProperty  
         {
             get 
             {
@@ -52,7 +52,8 @@ namespace Aufgabe2
             this.leistung = leistung;
         }
 
-        //Konstruktor ohne Parameter nutzt unseren anderen Konstruktor mit festgelegten Werten
+        //Konstruktor ohne Parameter nutzt unseren anderen Konstruktor mit festgelegten Werten 
+        //(eigener Konstruktor der Klasse kann mit 'this' aufgerufen werden)
         public Energiewesen() : this("NOT_SET", -1, Kategorie.NONE, -1.0f) { }
 
         //setter-Methoden

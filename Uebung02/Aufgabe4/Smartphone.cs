@@ -97,7 +97,7 @@ namespace Aufgabe4
             //Bei leerer eingabe setzen wir null
             if(pinStr == "")
                 pinNew = null;
-            //Sonst testen wir, dass die Eingabe auch eine ganzzahl ist und parsen den Wert
+            //Sonst testen wir, dass die Eingabe auch eine ganzzahl ist und parsen den Wert 
             else
             {
                 try
