@@ -1,0 +1,16 @@
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\Uebung05.exe
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\Uebung05.deps.json
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\Uebung05.runtimeconfig.json
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\Uebung05.runtimeconfig.dev.json
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\Uebung05.dll
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\ref\Uebung05.dll
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\bin\Debug\net5.0\Uebung05.pdb
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.csprojAssemblyReference.cache
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.AssemblyInfoInputs.cache
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.AssemblyInfo.cs
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.csproj.CoreCompileInputs.cache
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.dll
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\ref\Uebung05.dll
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.pdb
+C:\Users\baldu\Desktop\E_SE_Uebung\Uebung05\obj\Debug\net5.0\Uebung05.genruntimeconfig.cache
